@@ -192,3 +192,11 @@ body {
     cursor: pointer;
     font-size: 16px;
 }
+
+.footer {
+    background-color: var(--dark-bg);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+  }
