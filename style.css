@@ -148,4 +148,47 @@ body {
     font-weight: bold;
     font-style: normal;
     margin-top: 20px;
-  }
+}
+
+.call {
+    background-color: var(--accent-blue);
+    color: white;
+    border-radius: 12px;
+    padding: 40px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 60px auto;
+    gap: 40px;
+}
+
+.call h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call .phrase {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+.call .phrase p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.call button {
+    background-color: transparent;
+    color: white;
+    padding: 10px 24px;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+}
