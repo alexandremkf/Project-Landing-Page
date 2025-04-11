@@ -37,3 +37,53 @@ body {
     color: gray;
     font-size: 18px;
   }
+
+  .hero {
+    background-color: var(--dark-bg);
+    color: var(--light-text);
+    padding: 60px 40px;
+  }
+
+  .hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .hero-text {
+    max-width: 500px;
+  }
+
+  .hero-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 10px;
+  }
+
+  .hero-text p {
+    font-size: 18px;
+    color: var(--secondary-text);
+    margin-bottom: 20px;
+  }
+  
+  .hero-text button {
+    background-color: var(--accent-blue);
+    color: white;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .hero-image {
+    background-color: gray;
+    width: 300px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+  }
