@@ -15,7 +15,7 @@ body {
     color: var(--light-text);
     padding: 20px 40px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -90,7 +90,6 @@ body {
     justify-content: center;
     color: white;
     font-size: 14px;
-    
 }
 
 .info {
